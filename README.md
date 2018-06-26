@@ -3,6 +3,10 @@
 ## Voting System Architecture:
 ![Voting System Architecture](https://github.com/haimkabesa/docker-course/blob/master/Exercises/02.VotingSystem/voting-app-architecture.png)
 
+
+## Voting System UI:
+![Voting System UI](https://github.com/haimkabesa/VotingSystem/blob/master/voting-system.png)
+
 ## Background:
 
 This project is a generic voting system, While the system is active, users of this system can vote for one of the options. At the end of the voting period, the option with the most votings number will win the vote.
