@@ -10,7 +10,6 @@ pipeline {
         }
         stage('Info') {
           steps {
-            sh '"env | grep DOCKER"'
             sh 'docker info'
           }
         }
