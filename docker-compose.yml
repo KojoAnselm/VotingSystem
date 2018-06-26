@@ -20,6 +20,9 @@ services:
     depends_on: 
      - voting.db
      - rabbitmq
+    command: >
+      /bin/bash -c "
+        sleep 60;"
     environment:
       REDIS: votingdb
       RABBITMQ: rabbitmq
