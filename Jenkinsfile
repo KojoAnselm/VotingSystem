@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Info') {
           steps {
-            sh 'docker info'
+            sh 'docker-compose build'
           }
         }
       }
