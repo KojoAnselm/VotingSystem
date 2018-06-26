@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Voting App Deploy') {
       parallel {
         stage('Get Sourses') {
           steps {
@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Info') {
           steps {
-            sh '/usr/local/bin/docker-compose build'
+            sh '/usr/local/bin/docker-compose up'
           }
         }
       }
