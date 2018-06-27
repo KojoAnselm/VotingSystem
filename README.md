@@ -30,7 +30,7 @@ Joe's ToDo List:
         - Must be available in his default ports
         - the service must provide the following environment variables: user, password and vhost (all values should be defaults [look here](https://hub.docker.com/_/rabbitmq/)) 
 
-1. There is a known issue with the x service... before it starts rabbitmq must be up and ready. This constraint is due to the fact that the x service is trying to establish a connection with the rabbitmq service at start time. Unfortunately, no fault tolerance mechanism where implemented yet to handle the exception that is thrown.
+1. There is a known issue with the voting.processor service... before it starts rabbitmq must be up and ready. This constraint is due to the fact that the voting.processor service is trying to establish a connection with the rabbitmq service at start time. Unfortunately, no fault tolerance mechanism where implemented yet to handle the exception that is thrown.
 
 
 Goodluck!
